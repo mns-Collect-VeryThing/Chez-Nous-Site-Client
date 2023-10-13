@@ -1,27 +1,11 @@
-# React - Template
+# Chez nous - Site Client
 
-Projet contenant le nécéssaire pour démarrer un projet React.
+Ce repo est une extension d'un template, pour plus d'information sur le template :
+https://github.com/BastienBiblocque/ReactTemplate
 
-Avec comme outils :
+Ce site est le site client permetant de presenter nos offres et permettre a de nouveau client de s'inscrire.
 
-- Un routeur dans le fichier index.js
-- TailwindCSS et DaisyUI installé et configuré
-- La bibliothèque de loader de page (react-loader-spinner)
-- La bibliothèque de notification (react-toastify)
-- La bibliothèque axios pour les requêtes HTTP
-- La bibliothèque chart.js pour les graphiques
-- La bibliothèque i18next pour la traduction
-- La bibliothèque country-flag-icons pour les drapeaux
-
-
-Structure du projet :
-
-- Components : Contient les composants réutilisables
-- Pages : Contient les pages du site
-- Styles : Contient les styles globaux
-- Utils : Contient les fonctions réutilisables
-- Images : Contient les images du site
-- index.js : Fichier principal du projet ainsi que le routeur
+Maquette Figma : https://www.figma.com/file/jSpapLJ7mDSzToQSH1TVpI/ChezNous-charte-graphique
 
 ## Installation
 
