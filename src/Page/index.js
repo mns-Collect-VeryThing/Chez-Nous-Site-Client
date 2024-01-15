@@ -9,9 +9,13 @@ function Index() {
     return (
         <>
             <Header/>
-            <Toast />
-            <div>{t('Welcome to React')}</div>
-            <ChangeLanguages />
+            <div className="mx-4">
+                <div className="max-w-screen-md mx-auto">
+                    <Toast />
+                    <div>{t('Welcome to React')}</div>
+                    <ChangeLanguages />
+                </div>
+            </div>
             <Footer/>
         </>
     );
