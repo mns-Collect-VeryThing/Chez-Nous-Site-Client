@@ -6,11 +6,12 @@ import { useTranslation } from 'react-i18next';
 import ChangeLanguages from "../Component/changeLanguages";
 function Index() {
     const { t } = useTranslation();
+
     return (
         <>
             <Header/>
             <div className="mx-4">
-                <div className="max-w-screen-md mx-auto">
+                <div className="max-w-screen-md mx-auto bg-red-500">
                     <Toast />
                     <div>{t('Welcome to React')}</div>
                     <ChangeLanguages />
