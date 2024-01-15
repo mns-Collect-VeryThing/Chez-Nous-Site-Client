@@ -14,7 +14,7 @@ function Header() {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to="/"><a className="text-white bg-primary">{t('Inscription')}</a></Link></li>
                         <li><Link to="/"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
-                        <li><Link to="/"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
+                        <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                         <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
                         <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
                     </ul>
@@ -25,7 +25,7 @@ function Header() {
                 <ul className="menu menu-horizontal px-1">
                     <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
                     <li><Link to="/"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
-                    <li><Link to="/"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
+                    <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                     <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
                 </ul>
             </div>

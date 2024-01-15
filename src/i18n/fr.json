@@ -2,11 +2,23 @@
   "Welcome to React": "Bienvenue à React et react-i18next",
   "Toast" : "Toast moi",
   "Toast message" : "Message toasté",
-
   "Inscription" : "Inscription",
   "CommentCaMarche" : "Comment ca marche ?",
   "NosOffres" : "Nos offres",
   "Connexion" : "Connexion",
   "Demonstration" : "Demonstration",
-  "BrandName" : "Collect&Verything"
+  "BrandName" : "Collect&Verything",
+  "ParMois" : "Par mois",
+  "Commencer" : "Commencer",
+  "Avantages" : "Avantages",
+  "SmallPrice" : "10",
+  "StandardPrice" : "30",
+  "ProfessionalPrice" : "100",
+  "PetiteEntreprise": "Petite entreprise",
+  "Professional": "Professionel",
+  "MediumEntreprise": "Standard",
+  "avantage1" : "Suivie des commandes",
+  "avantage2" : "Suivie de votre plateforme",
+  "avantage3" : "Produit illimité",
+  "avantage4" : "SAV 24/7"
 }

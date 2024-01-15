@@ -8,5 +8,18 @@
   "NosOffres" : "Our offres",
   "Connexion" : "Sign up",
   "Demonstration" : "Demonstration",
-  "BrandName" : "Collect&Verything"
+  "BrandName" : "Collect&Verything",
+  "ParMois" : "Per month",
+  "Commencer" : "Start",
+  "Avantages" : "Avantage",
+  "SmallPrice" : "10",
+  "StandardPrice" : "30",
+  "ProfessionalPrice" : "100",
+  "PetiteEntreprise": "Small entreprise",
+  "Professional": "Professional",
+  "MediumEntreprise": "Standard",
+  "avantage1" : "Follow your order",
+  "avantage2" : "Suivie your plateforme",
+  "avantage3" : "Illimited product",
+  "avantage4" : "SAV 24/7"
 }
