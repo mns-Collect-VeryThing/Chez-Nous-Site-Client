@@ -2,5 +2,11 @@
   "Welcome to React": "Welcome to React and react-i18next",
   "Toast": "Toast me",
   "Toast message": "This is a toast message",
-  "Tools" : "Tools"
+  "Tools" : "Tools",
+  "Inscription" : "Sign in",
+  "CommentCaMarche" : "How it works ?",
+  "NosOffres" : "Our offres",
+  "Connexion" : "Sign up",
+  "Demonstration" : "Demonstration",
+  "BrandName" : "Collect&Verything"
 }
