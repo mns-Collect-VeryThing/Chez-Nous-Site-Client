@@ -8,5 +8,30 @@
   "NosOffres" : "Nos offres",
   "Connexion" : "Connexion",
   "Demonstration" : "Demonstration",
-  "BrandName" : "Collect&Verything"
+  "BrandName" : "Collect&Verything",
+
+
+  "Informations" : "Vos informations",
+  "ApprendrePlus" : "Pour en apprendre plus sur vous",
+  "Prenom" : "Prénom",
+  "Nom" : "Nom",
+  "MDP" : "Mot de passe",
+  "Email" : "Email",
+  "Suivant" : "Suivant",
+
+
+  "Activites" : "Votre activités",
+  "ApprendrePlusEntreprise" : "Pour en apprendre plus sur votre entreprise",
+  "Secteur" : "Secteur d'activité",
+  "SIRET" : "SIRET",
+
+
+  "InfoFacturation" : "Vos informations de facturation",
+  "DeployerBoutique" : "Pour déployer votre boutique en ligne",
+  "AdresseFacture" : "Adresse de facturation",
+  "CodePostal" : "Code postal",
+  "Ville" : "Ville",
+  "NumeroCarte" : "Numéro de carte banquaire",
+  "DateExpiration" : "Date d'expiration",
+  "CVV" : "CVV"
 }
