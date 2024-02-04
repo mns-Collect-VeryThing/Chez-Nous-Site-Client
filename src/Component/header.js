@@ -19,7 +19,7 @@ function Header() {
                         <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-primary btn-outline text-xl">{t('BrandName')}</a>
+                <Link to="/"><a className="btn btn-primary btn-outline text-xl">{t('BrandName')}</a></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
