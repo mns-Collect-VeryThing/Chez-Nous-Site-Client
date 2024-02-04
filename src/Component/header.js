@@ -16,14 +16,14 @@ function Header() {
                         <li><Link to="/comment-ca-marche"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
                         <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                         <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
-                        <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
+                        <li><Link to="/faq"><a className="text-base-200">{t('FAQ')}</a></Link></li>
                     </ul>
                 </div>
                 <Link to="/"><a className="btn btn-primary btn-outline text-xl">{t('BrandName')}</a></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
+                    <li><Link to="/faq"><a className="text-base-200">{t('FAQ')}</a></Link></li>
                     <li><Link to="/comment-ca-marche"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
                     <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                     <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
