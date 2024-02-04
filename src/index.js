@@ -8,6 +8,7 @@ import Tools from "./Page/tools";
 import './i18n/i18n';
 import Offers from "./Page/offers";
 import CommentCaMarche from "./Page/comment-ca-marche";
+import FAQ from "./Page/faq";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
             <Route path="/" element={<Index />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/tools" element={<Tools />} />
+            <Route path="/faq" element={<FAQ />} />
             <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
         </Routes>
     </BrowserRouter>
