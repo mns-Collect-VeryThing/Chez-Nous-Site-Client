@@ -13,19 +13,19 @@ function Header() {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to="/"><a className="text-white bg-primary">{t('Inscription')}</a></Link></li>
-                        <li><Link to="/"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
-                        <li><Link to="/"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
+                        <li><Link to="/comment-ca-marche"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
+                        <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                         <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
-                        <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
+                        <li><Link to="/faq"><a className="text-base-200">{t('FAQ')}</a></Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-primary btn-outline text-xl">{t('BrandName')}</a>
+                <Link to="/"><a className="btn btn-primary btn-outline text-xl">{t('BrandName')}</a></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/"><a className="text-base-200">{t('Demonstration')}</a></Link></li>
-                    <li><Link to="/"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
-                    <li><Link to="/"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
+                    <li><Link to="/faq"><a className="text-base-200">{t('FAQ')}</a></Link></li>
+                    <li><Link to="/comment-ca-marche"><a className="text-base-200">{t('CommentCaMarche')}</a></Link></li>
+                    <li><Link to="/offers"><a className="text-base-200">{t('NosOffres')}</a></Link></li>
                     <li><Link to="/"><a className="text-base-200">{t('Connexion')}</a></Link></li>
                 </ul>
             </div>

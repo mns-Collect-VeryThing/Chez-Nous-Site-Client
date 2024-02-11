@@ -9,8 +9,6 @@
   "Connexion" : "Sign up",
   "Demonstration" : "Demonstration",
   "BrandName" : "Collect&Verything",
-
-
   "Informations" : "Your informations",
   "ApprendrePlus" : "To know more about you",
   "Prenom" : "First Name",
@@ -18,13 +16,10 @@
   "MDP" : "Password",
   "Email" : "Email",
   "Suivant" : "Next",
-
-
   "Activites" : "Your activity",
   "ApprendrePlusEntreprise" : "To know more about your entreprise",
   "Secteur" : "Sector of activity",
   "SIRET" : "SIRET",
-
   "InfoFacturation" : "Your billing information",
   "DeployerBoutique" : "To deploy your online store",
   "AdresseFacture" : "Billing address",
@@ -33,5 +28,17 @@
   "NumeroCarte" : "Bank card number",
   "DateExpiration" : "Expiration date",
   "CVV" : "CVV"
-
+  "ParMois" : "Per month",
+  "Commencer" : "Start",
+  "Avantages" : "Avantage",
+  "SmallPrice" : "10",
+  "StandardPrice" : "30",
+  "ProfessionalPrice" : "100",
+  "PetiteEntreprise": "Small entreprise",
+  "Professional": "Professional",
+  "MediumEntreprise": "Standard",
+  "avantage1" : "Follow your order",
+  "avantage2" : "Suivie your plateforme",
+  "avantage3" : "Illimited product",
+  "avantage4" : "SAV 24/7"
 }
