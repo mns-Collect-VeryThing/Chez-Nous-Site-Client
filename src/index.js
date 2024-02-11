@@ -12,6 +12,7 @@ import './i18n/i18n';
 import Offers from "./Page/offers";
 import CommentCaMarche from "./Page/comment-ca-marche";
 import FAQ from "./Page/faq";
+import Legal from "./Page/legal";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
             <Route path="/offers" element={<Offers />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/mention-legal" element={<Legal />} />
             <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
         </Routes>
     </BrowserRouter>
