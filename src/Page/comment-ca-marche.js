@@ -17,7 +17,7 @@ function CommentCaMarche() {
                 <div className="max-w-screen-lg mx-auto min-h-screen">
                     <h1 className="text-5xl font-bold text-center text-primary mt-8">{t('CommentCaMarche')}</h1>
 
-                    <div className="grid grid-cols-2 gap-4 mt-12 max-w-md mx-auto">
+                    <div className="grid grid-cols-2 gap-4 mt-12 max-w-md mx-auto mb-8">
                         <div>
                             <Subscription />
                         </div>
@@ -25,8 +25,6 @@ function CommentCaMarche() {
                             <h2 className="text-2xl font-bold text-primary">#1 Choisir</h2>
                             <p>Choisissez la formule la plus adapter à votre entreprise. Chaque forfait est modifiable et ajustable selon vos besoins.</p>
                         </div>
-                    </div>
-                    <div className="grid grid-cols-2 gap-4 mt-12 max-w-md mx-auto">
                         <div>
                             <h2 className="text-2xl font-bold text-secondary">#2 Créer</h2>
                             <p>Donner nous votre logo et quelque couleurs et on s’occupe du reste. Retrouver quelque minutes après votre inscriptions votre boutique en ligne prête à l’emploie.</p>
@@ -34,8 +32,6 @@ function CommentCaMarche() {
                         <div>
                             <Sculpting/>
                         </div>
-                    </div>
-                    <div className="grid grid-cols-2 gap-4 mt-12 max-w-md mx-auto">
                         <div>
                             <Shopping />
                         </div>
@@ -43,8 +39,6 @@ function CommentCaMarche() {
                             <h2 className="text-2xl font-bold text-primary">#3 Vendre</h2>
                             <p>En livraison à domicile, en point relais ou en click dans collect dans votre boutique. Vendez vos produits à vos clients à travers votre nouvelle plateforme.</p>
                         </div>
-                    </div>
-                    <div className="grid grid-cols-2 gap-4 mt-12 max-w-md mx-auto">
                         <div>
                             <h2 className="text-2xl font-bold text-secondary">#4 Suivre</h2>
                             <p>Suivez les commandes de vos clients en temps réel. Mais également suivez la progression de votre business grâce à l’espace qui vous est réserver.</p>
