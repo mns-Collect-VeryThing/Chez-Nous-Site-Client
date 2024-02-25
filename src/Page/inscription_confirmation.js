@@ -12,14 +12,14 @@ function Inscription_Confirmation() {
 
     return (
         <>
-            <Header/>
+            <Header isSign={true} />
             <div className="mx-4">
-                <div className="max-w-screen-md mx-auto">
+                <div className="max-w-screen-lg mx-auto min-h-screen">
                     <h1 className="text-5xl font-bold text-center text-primary mt-8">Création en cours</h1>
                     <h2 className="text-3xl font-bold text-center text-primary mt-8">Veuillez patienter nous déployons
                         votre boutique </h2>
-                    <div className="mx-auto mt-8 text-center">
-                        {/*<Sculpting/>*/}
+                    <div className="mx-auto mt-8 flex items-center justify-center flex-col">
+                        <Sculpting style={{ width: '600px', height: '600px' }}/>
                         <ProgressBar
                             height="200"
                             width="200"
@@ -32,6 +32,7 @@ function Inscription_Confirmation() {
                             visible={true}
                         />
                     </div>
+
                 </div>
             </div>
             <Footer/>
