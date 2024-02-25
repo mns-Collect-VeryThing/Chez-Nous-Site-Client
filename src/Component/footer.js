@@ -21,7 +21,7 @@ function Footer() {
             <nav>
                 <h6 className="footer-title">Liens utile</h6>
                 <a className="link link-hover">A propos</a>
-                <a className="link link-hover">Nous contacter</a>
+                <Link to="/contact"><a className="link link-hover">Nous contacter</a></Link>
                 <Link to="/mention-legal"><a className="link link-hover">Mention légal</a></Link>
                 <a className="link link-hover">Conditions général de vente</a>
             </nav>
