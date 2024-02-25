@@ -18,7 +18,7 @@ function OfferComponent() {
                         <h2 className="card-title text-xl mt-4">{t('Avantages')}</h2>
                         <Avantage avantage={t('avantage1')}/>
                         <div className="card-actions justify-center mt-4">
-                            <Link to="/inscription"><button className="btn btn-primary btn-outline">{t('Commencer')}</button></Link>
+                            <Link to="/inscription/1"><button className="btn btn-primary btn-outline">{t('Commencer')}</button></Link>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function OfferComponent() {
                         <Avantage avantage={t('avantage2')}/>
                         <Avantage avantage={t('avantage3')}/>
                         <div className="card-actions justify-center mt-4">
-                            <Link to="/inscription"><button className="btn btn-primary">{t('Commencer')}</button></Link>
+                            <Link to="/inscription/1"><button className="btn btn-primary">{t('Commencer')}</button></Link>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function OfferComponent() {
                         <Avantage avantage={t('avantage3')}/>
                         <Avantage avantage={t('avantage4')}/>
                         <div className="card-actions justify-center mt-4">
-                            <Link to="/inscription"><button className="btn btn-primary btn-outline">{t('Commencer')}</button></Link>
+                            <Link to="/inscription/1"><button className="btn btn-primary btn-outline">{t('Commencer')}</button></Link>
                         </div>
                     </div>
                 </div>
