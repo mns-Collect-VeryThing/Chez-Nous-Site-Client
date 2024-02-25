@@ -4,7 +4,6 @@ import {useTranslation} from "react-i18next";
 function Header({isSign = false}) {
     const { t } = useTranslation();
 
-    console.log(isSign)
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">

@@ -15,6 +15,7 @@ import FAQ from "./Page/faq";
 import Legal from "./Page/legal";
 import Inscription_Confirmation from "./Page/inscription_confirmation";
 import Inscription_Finish from "./Page/inscription_finish";
+import Contact from "./Page/contact";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
             <Route path="/offers" element={<Offers />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/mention-legal" element={<Legal />} />
             <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
         </Routes>
