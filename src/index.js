@@ -13,15 +13,19 @@ import Offers from "./Page/offers";
 import CommentCaMarche from "./Page/comment-ca-marche";
 import FAQ from "./Page/faq";
 import Legal from "./Page/legal";
+import Inscription_Confirmation from "./Page/inscription_confirmation";
+import Inscription_Finish from "./Page/inscription_finish";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/inscription" element={<Inscription />} />
-            <Route path="/inscription2" element={<Inscription_2 />} />
-            <Route path="/inscription3" element={<Inscription_3 />} />
+            <Route path="/inscription/1" element={<Inscription />} />
+            <Route path="/inscription/2" element={<Inscription_2 />} />
+            <Route path="/inscription/3" element={<Inscription_3 />} />
+            <Route path="/inscription/confirmation" element={<Inscription_Confirmation />} />
+            <Route path="/inscription/finish" element={<Inscription_Finish />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/faq" element={<FAQ />} />

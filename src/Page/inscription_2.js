@@ -3,17 +3,23 @@ import Header from "../Component/header";
 import Footer from "../Component/footer";
 import { useTranslation } from 'react-i18next';
 import { useForm} from "react-hook-form";
+import {useNavigate} from "react-router-dom";
+
 function Inscription_2() {
     const { t } = useTranslation();
+    const navigate = useNavigate();
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        console.log(data)
+        navigate('/inscription/3');
+    };
 
     return (
         <>
-            <Header/>
+            <Header isSign={true} />
             <div className="mx-4">
-                <div className="max-w-screen-md mx-auto">
+                <div className="max-w-screen-lg mx-auto min-h-screen">
                     <div className="text-5xl font-bold text-center text-primary mt-8">{t('Activites')}</div>
                     <div className="text-2xl font-bold text-center text-primary mt-8">{t('ApprendrePlusEntreprise')}</div>
                     <div className="card w-96 mx-auto border-2 border-primary my-6">
