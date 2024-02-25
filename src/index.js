@@ -16,6 +16,10 @@ import Legal from "./Page/legal";
 import Inscription_Confirmation from "./Page/inscription_confirmation";
 import Inscription_Finish from "./Page/inscription_finish";
 import Contact from "./Page/contact";
+import Login from "./Page/login";
+import LoginRedirect from "./Page/login-redirect";
+import ResetPassword from "./Page/reset-password";
+import ResetPassword2 from "./Page/reset-password-2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +37,11 @@ root.render(
             <Route path="/contact" element={<Contact />} />
             <Route path="/mention-legal" element={<Legal />} />
             <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
+
+            <Route path="/login" element={<Login />} />
+            <Route path="/login/redirect" element={<LoginRedirect />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
+            <Route path="/reset-password/2" element={<ResetPassword2 />} />
         </Routes>
     </BrowserRouter>
 );
