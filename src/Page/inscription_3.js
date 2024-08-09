@@ -11,7 +11,7 @@ function Inscription_3() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        navigate('/inscription/confirmation');
+        navigate('/inscription/4');
     };
     return (
         <>

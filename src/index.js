@@ -7,6 +7,7 @@ import Index from "./Page";
 import Inscription from "./Page/inscription_1";
 import Inscription_2 from "./Page/inscription_2";
 import Inscription_3 from "./Page/inscription_3";
+import Inscription_4 from "./Page/inscription_4";
 import Tools from "./Page/tools";
 import './i18n/i18n';
 import Offers from "./Page/offers";
@@ -29,6 +30,7 @@ root.render(
             <Route path="/inscription/1" element={<Inscription />} />
             <Route path="/inscription/2" element={<Inscription_2 />} />
             <Route path="/inscription/3" element={<Inscription_3 />} />
+            <Route path="/inscription/4" element={<Inscription_4 />} />
             <Route path="/inscription/confirmation" element={<Inscription_Confirmation />} />
             <Route path="/inscription/finish" element={<Inscription_Finish />} />
             <Route path="/offers" element={<Offers />} />
