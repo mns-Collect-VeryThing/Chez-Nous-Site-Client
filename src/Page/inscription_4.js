@@ -36,8 +36,8 @@ function Inscription_4() {
             <Header isSign={true}/>
             <div className="mx-4">
                 <div className="max-w-screen-lg mx-auto min-h-screen">
-                    <div className="text-5xl font-bold text-center text-primary mt-8">{t('InfoFacturation')}</div>
-                    <div className="text-2xl font-bold text-center text-primary mt-8">{t('DeployerBoutique')}</div>
+                    <div className="text-5xl font-bold text-center text-primary mt-8">{t('Votre boutique')}</div>
+                    <div className="text-2xl font-bold text-center text-primary mt-8">{t('Une petite touche de personnalisation')}</div>
                     <div className="card w-96 mx-auto border-2 border-primary my-6">
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body items-center text-center">
                             <label className="form-control w-full max-w-xs">
