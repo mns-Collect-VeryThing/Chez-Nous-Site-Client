@@ -4,7 +4,8 @@ import Footer from "../Component/footer";
 import { useTranslation } from 'react-i18next';
 import { useForm } from "react-hook-form";
 import { useNavigate } from 'react-router-dom';
-import {postLogin} from "../service/userService";
+import {postLogin, postSignUp} from "../service/userService";
+import login from "./login";
 
 function Inscription() {
     const { t } = useTranslation();
@@ -12,23 +13,19 @@ function Inscription() {
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
-        console.log(data)
-        fetchOrders(data).then();
+        doSignup(data).then();
     };
 
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const fetchOrders = async (data) => {
-        try {
-            setLoading(true);
-            const data = await postLogin();
-            console.log(data);
-        } catch (error) {
-            setError(error.message);
-        } finally {
-            setLoading(false);
-        }
+
+    const doSignup = async (data) => {
+        const signResponse = await postSignUp(data);
+        const loginResponse = await postLogin(data);
+        const { token } = loginResponse;
+        localStorage.setItem('token', token);
+        navigate('/inscription/shop');
     };
 
     return (
@@ -70,7 +67,7 @@ function Inscription() {
                                 <div className="label">
                                     <span className="label-text">{t('MDP')}</span>
                                 </div>
-                                <input type="text"
+                                <input type="password"
                                        className="input input-bordered w-full max-w-xs"
                                        placeholder="********" {...register("password", {required: true})} />
                                 <div className="label">

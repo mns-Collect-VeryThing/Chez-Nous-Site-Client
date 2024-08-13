@@ -21,6 +21,7 @@ import Login from "./Page/login";
 import LoginRedirect from "./Page/login-redirect";
 import ResetPassword from "./Page/reset-password";
 import ResetPassword2 from "./Page/reset-password-2";
+import InscriptionShop from "./Page/inscription_shop";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
         <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/inscription/1" element={<Inscription />} />
+            <Route path="/inscription/shop" element={<InscriptionShop />} />
             <Route path="/inscription/2" element={<Inscription_2 />} />
             <Route path="/inscription/3" element={<Inscription_3 />} />
             <Route path="/inscription/4" element={<Inscription_4 />} />

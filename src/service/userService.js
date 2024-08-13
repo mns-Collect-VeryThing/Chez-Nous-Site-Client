@@ -22,5 +22,18 @@ const postLogin = async (data) => {
     }
 };
 
+const postSignUp = async (data) => {
+    try {
+        return await axiosInstance.post(`/user/new`, data, {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+    } catch (error) {
+        return { status: 401, message: 'Unauthorized' };
+    }
+};
 
-export { postLogin };
+
+
+export { postLogin, postSignUp };
