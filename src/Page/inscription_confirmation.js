@@ -59,17 +59,16 @@ function Inscription_Confirmation() {
                             <h2 className="text-3xl font-bold text-center text-primary mt-8">Vous pouvez le retrouver
                                 votre site en ligne avec le lien suivant :</h2>
                             <div className="flex justify-center items-center h-full">
-                                <a href={'http://localhost:' + deployInformation.port} target="_blank"
-                                   className="text-3xl font-bold text-center text-secondary underline mt-8">
-                                    localhost:{deployInformation.port}
-                                </a>
+                                {/*<a href={'http://localhost:' + deployInformation.port} target="_blank"*/}
+                                {/*   className="text-3xl font-bold text-center text-secondary underline mt-8">*/}
+                                {/*    localhost:{deployInformation.port}*/}
+                                {/*</a>*/}
                             </div>
                             <div className="mx-auto mt-8 flex items-center justify-center flex-col">
-                                {/*<div className="py-4">*/}
-                                {/*    <Link to="/dashboard">*/}
-                                {/*        <button className="btn btn-primary">Mon espace personnel</button>*/}
-                                {/*    </Link>*/}
-                                {/*</div>*/}
+                                <a href='http://localhost:3001' target="_blank"
+                                   className="btn btn-primary text-3xl font-bold text-center mt-8">
+                                    Votre dashboard
+                                </a>
                                 <Finish style={{width: '600px', height: '600px'}}/>
                             </div>
                         </div>
