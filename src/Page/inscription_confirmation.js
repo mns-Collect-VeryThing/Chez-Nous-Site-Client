@@ -65,11 +65,11 @@ function Inscription_Confirmation() {
                                 </a>
                             </div>
                             <div className="mx-auto mt-8 flex items-center justify-center flex-col">
-                                <div className="py-4">
-                                    <Link to="/dashboard">
-                                        <button className="btn btn-primary">Mon espace personnel</button>
-                                    </Link>
-                                </div>
+                                {/*<div className="py-4">*/}
+                                {/*    <Link to="/dashboard">*/}
+                                {/*        <button className="btn btn-primary">Mon espace personnel</button>*/}
+                                {/*    </Link>*/}
+                                {/*</div>*/}
                                 <Finish style={{width: '600px', height: '600px'}}/>
                             </div>
                         </div>
