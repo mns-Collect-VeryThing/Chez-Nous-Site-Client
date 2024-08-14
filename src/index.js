@@ -33,7 +33,7 @@ root.render(
             <Route path="/inscription/2" element={<Inscription_2 />} />
             <Route path="/inscription/3" element={<Inscription_3 />} />
             <Route path="/inscription/4" element={<Inscription_4 />} />
-            <Route path="/inscription/confirmation" element={<Inscription_Confirmation />} />
+            <Route path="/inscription/confirmation/:shopId" element={<Inscription_Confirmation />} />
             <Route path="/inscription/finish" element={<Inscription_Finish />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/tools" element={<Tools />} />

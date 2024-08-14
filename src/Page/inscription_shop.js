@@ -18,7 +18,7 @@ function InscriptionShop() {
         const decodedToken = jwtDecode(token);
         data.creator = btoa(unescape(encodeURIComponent(decodedToken.username)));
         const response = await postShop(data);
-        navigate('/inscription/confirmation');
+        navigate('/inscription/confirmation/' + response.id);
 
     };
 
